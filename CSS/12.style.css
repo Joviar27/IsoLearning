@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f3f4f5;
+}
+
+/* Jumbotron */
+
+.header-container {
+  height: 530px;
+  width: auto;
+  background: linear-gradient(78.47deg, #00c6ff 36.41%, #0072ff 97.39%);
+  color: black;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.left-content3{
+  padding-right: 50px;
+}
+/* End Jumbotron */
+
+/* Navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  border-radius: 25px;
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 40px;
+}
+.navbar-kiri :hover{
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  transform: scale(1.2,1.2);
+}
+.navbar-tengah a:hover{
+  transition: .1s ease-in-out;
+  border: 5px solid #beb9b9;
+  border-radius: 30px;
+}
+
+.navbar-tengah{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar-tengah a{
+  color: black;
+  text-align: center;
+  margin-inline: 30px;
+  padding-inline: 8px;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 24px;
+  font-family: "roboto";
+}
+
+.navbar-kanan img:hover{
+  transition: .3s ease-in-out;
+  transform: scale(1.1,1.1);
+}
+
+.imgfoto{
+  margin-top: 7px;
+  object-fit: cover;
+}
+
+/* End Navbar */
+
+.filter{
+  margin-top: 20px
+}
+/* Profil */
+
+.left-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px 40px 40px 40px;
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.left-content ul {
+  list-style-type: none;
+  text-align: left;
+  line-height: 4;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+}
+
+.right-content {
+  padding: 20px 40px 30px 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px
+}
+.con-comu{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.right-content ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* End profil */
+
+/* Garis */
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/* End Garis */
+.contheader {
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contheader .left-content3 {
+  font-size: x-large;
+  font-weight: 800;
+}
+/* End Jumbotron */
+
+/* Filter */
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+      float: none;
+  }
+
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+  }
+
+  .topnav input[type=text] {
+      border: 1px solid #ccc;
+  }
+}
+
+.filter {
+  display: flex;
+}
+
+.left-filter {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* End Filter */
+
+
+/* Footer */
+
+footer {
+  height: 400px;
+  text-align: left;
+  padding: 3px;
+  background: #0183FF;
+  color: black;
+}
+
+.content {
+  display: flex;
+  margin-top: 40px;
+}
+
+/* End Footer */

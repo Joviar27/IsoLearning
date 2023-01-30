@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+body{
+  background-color:#E5E5E5;
+}   
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #f3f4f5;
+}
+
+.header-container {
+  height: 530px;
+  width: auto;
+  background: linear-gradient(78.47deg, #00C6FF 36.41%, #0072FF 97.39%);
+  color: black;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  border-radius: 25px;
+  padding: 7px 15px;
+  margin-bottom: 30px;
+}
+.navbar-tengah a:hover{
+  border: 5px solid #beb9b9;
+  border-radius: 30px;
+}
+
+.navbar-tengah{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar-tengah a{
+  color: black;
+  text-align: center;
+  margin-inline: 30px;
+  padding-inline: 8px;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 24px;
+  font-family: "roboto";
+}
+.navbar-kiri :hover{
+cursor: pointer;
+transition: .3s ease-in-out;
+transform: scale(1.2,1.2);
+}
+.navbar-tengah a:hover{
+transition: .1s ease-in-out;
+border: 5px solid #beb9b9;
+border-radius: 30px;
+}
+.navbar-kanan img:hover{
+transition: .3s ease-in-out;
+transform: scale(1.1,1.1);
+}
+
+
+.imgfoto{
+  width: 50px;
+  height: 50px;
+}
+
+.tombol-kanan a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-decoration: none;
+  line-height: 21px;
+  font-size: 18px;
+  font-family: "roboto";
+}
+
+.contheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Prevent image stretching as it's resized */
+.card-img-top {
+  object-fit: cover;
+  border-radius: 5%;
+
+}
+
+/* Hover effects */
+.card {
+  transition: -webkit-transform 0.3s ease;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  transform: scale(1.01, 1.01);
+}
+
+.card-body {
+  font-size: x-large;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* Footer */
+
+footer {
+  height: 400px;
+  text-align: left;
+  padding: 3px;
+  background: #0183FF;
+  color: black;
+}
+
+.content {
+  display: flex;
+  margin-top: 40px;
+}
+
+/* End Footer */

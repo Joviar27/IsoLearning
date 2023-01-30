@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color:#E5E5E5;
+}   
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    border-radius: 25px;
+    padding: 7px 15px;
+}
+.navbar-kiri :hover{
+    transition: .3s ease-in-out;
+    transform: scale(1.2,1.2);
+}
+.navbar-tengah a:hover{
+    transition: .1s ease-in-out;
+    border: 5px solid #beb9b9;
+    border-radius: 30px;
+}
+
+.navbar-tengah{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar-tengah a{
+    color: black;
+    text-align: center;
+    margin-inline: 30px;
+    padding-inline: 8px;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 24px;
+    font-family: "roboto";
+}
+
+.navbar-kanan img:hover{
+    transition: .3s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header{
+	background: linear-gradient(84.91deg, #00C6FF 49.82%, #0072FF 95.65%);
+	width: auto;
+	color: black;
+    padding: 40px 70px;
+	padding-bottom: 90px;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 90px;
+}
+.judul-header h1{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 87px;
+
+	color: #000000;
+}
+.judul-header h2{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 49px;
+
+	color: #000000;
+}
+.paragraf-header{
+	max-width: 782px;
+	margin-left: 80px;
+}
+.paragraf-header p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+
+color: #000000;
+}
+
+#tabel1 {
+	margin: 70px;
+	background: linear-gradient(228.83deg, #FF9F2A 10.75%, #FCC401 91.58%);
+	border-radius: 30px;
+}
+
+#tabel1 h1{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+	text-align: center;
+	padding: 50px;
+}
+
+.con-opsi{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.con-opsi :hover{
+	transition: .2s ease-in-out;
+	transform: scale(1.015,1.015);
+}
+.opsi{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 60px;
+	margin-inline: 60px;
+	margin-bottom: 120px;
+
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+.opsi img{
+	max-width: 170px;
+	min-height: 180px;
+}
+
+.opsi h2{
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #000000;
+}
+.con-opsi a{
+	text-decoration: none;
+}
+
+.con-h2{
+	margin-top: 40px;
+	max-width: 226px;
+	max-height: 50px;
+}
+
+.judul2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 105px 150px;
+    background: #0183FF;
+}
+.kolom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.footer .kolom a{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
